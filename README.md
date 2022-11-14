@@ -1,6 +1,6 @@
 # Проект: Chat
 
-* посетить сайт chat [click](https://jon666grid.github.io/chat-for-kode/)
+* посетить сайт chat [click](https://jon666grid.github.io/chat/)
 
 ## Описание
 ````
