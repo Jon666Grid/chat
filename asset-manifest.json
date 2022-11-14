@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.94612388.css",
+    "main.js": "/react-gh-pages/static/js/main.95367066.js",
+    "static/media/inter-700.woff": "/react-gh-pages/static/media/inter-700.48a9b7e7e69f61689382.woff",
+    "static/media/inter-400.woff": "/react-gh-pages/static/media/inter-400.a252fc44cf11fd602874.woff",
+    "static/media/inter-700.woff2": "/react-gh-pages/static/media/inter-700.d408f7c5830b4a9c6f63.woff2",
+    "static/media/inter-900.woff2": "/react-gh-pages/static/media/inter-900.769f5bb9abd2e78ec82b.woff2",
+    "static/media/inter-400.woff2": "/react-gh-pages/static/media/inter-400.7c370fde6764d889efe6.woff2",
+    "static/media/krug.png": "/react-gh-pages/static/media/krug.9ce35696b70219a70710.png",
+    "static/media/phone.svg": "/react-gh-pages/static/media/phone.b4c1686bdf2067168983616964b9470a.svg",
+    "static/media/buttonSearch.svg": "/react-gh-pages/static/media/buttonSearch.4a17b1f0121a14f57aea.svg",
+    "static/media/buttonSearchActive.svg": "/react-gh-pages/static/media/buttonSearchActive.e3ca495f6be60d775bc7.svg",
+    "static/media/star.svg": "/react-gh-pages/static/media/star.853786d1d6b84be0fd1c59bc8257d6a1.svg",
+    "static/media/IconSearch.svg": "/react-gh-pages/static/media/IconSearch.f73b66b3184bdc83b3a8.svg",
+    "static/media/profileButton-out.svg": "/react-gh-pages/static/media/profileButton-out.89324cb0841ae74c642e.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/popupButton.svg": "/react-gh-pages/static/media/popupButton.52dbcbd2ac79d1c48d8c.svg",
+    "main.94612388.css.map": "/react-gh-pages/static/css/main.94612388.css.map",
+    "main.95367066.js.map": "/react-gh-pages/static/js/main.95367066.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94612388.css",
+    "static/js/main.95367066.js"
+  ]
+}
