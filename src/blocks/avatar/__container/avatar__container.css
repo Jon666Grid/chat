@@ -1,0 +1,17 @@
+.avatar__container {
+   display: inline-grid;
+   gap: 5px;
+   grid-template-areas:
+      "link title other"
+      "link subtitle subtitle";
+}
+
+@media screen and (max-width: 480px) {
+   .avatar__container {
+      margin-bottom: 5px;
+      grid-template-areas:
+      "link title title"
+      "link subtitle subtitle"
+      "link other other"
+   }
+}

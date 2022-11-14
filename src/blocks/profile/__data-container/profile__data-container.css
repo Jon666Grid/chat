@@ -1,0 +1,8 @@
+.profile__data-container {
+   list-style: none;
+   display: flex;
+}
+
+.profile__data-container:nth-child(1) {
+   margin-bottom: 50px;
+}

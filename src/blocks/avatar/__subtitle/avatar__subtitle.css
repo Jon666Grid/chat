@@ -1,0 +1,8 @@
+.avatar__subtitle {
+   grid-area: subtitle;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 1.2rem;
+   color: #55555C;
+   margin: 0;
+}

@@ -1,0 +1,40 @@
+.popup__checkbox {
+   position: absolute;
+   z-index: -1;
+   opacity: 0;
+}
+
+.popup__checkbox+label {
+   display: inline-flex;
+   align-items: center;
+   user-select: none;
+}
+
+.popup__checkbox+label::before {
+   content: '';
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+   flex-shrink: 0;
+   flex-grow: 0;
+   border: 1px solid #adb5bd;
+   border-radius: 50%;
+   margin-right: 0.5em;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 50% 50%;
+}
+
+.popup__checkbox:not(:checked)+label::before {
+   cursor: pointer;
+}
+
+.popup__checkbox:checked+label::before {
+   border-color: #6534FF;
+   background-color: #6534FF;
+   background-image: url(../../../images/krug.png);
+}
+
+.popup__checkbox:disabled+label::before {
+   background-color: #e9ecef;
+}

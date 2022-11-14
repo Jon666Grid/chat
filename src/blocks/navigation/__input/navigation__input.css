@@ -1,0 +1,17 @@
+.navigation__input {
+   width: 100%;
+   margin-left: 12px;
+   margin-right: 12px;
+   padding: 14px 40px 14px 40px;
+   border-radius: 16px;
+   border: none;
+   outline:none;
+   background-color: #F7F7F8;
+}
+
+.navigation__input::placeholder {
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 1rem;
+   color: #C3C3C6;
+}

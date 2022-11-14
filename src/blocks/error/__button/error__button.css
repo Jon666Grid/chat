@@ -1,0 +1,15 @@
+.error__button {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   color: #6534FF;
+   padding: 5px;
+   border: none;
+   background: none;
+   transition: 0.3s;
+}
+
+.error__button:hover {
+   cursor: pointer;
+   opacity: 0.8;
+}

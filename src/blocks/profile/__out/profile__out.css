@@ -1,0 +1,19 @@
+.profile__out {
+   background-image: url("../../../images/profileButton-out.svg");
+   background-color: transparent;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border: none;
+   width: 7px;
+   height: 10px;
+   position: absolute;
+   top: 28px;
+   left: 32px;
+   transition: .3s;
+}
+
+.profile__out:hover {
+   cursor: pointer;
+   scale: 1.2;
+}

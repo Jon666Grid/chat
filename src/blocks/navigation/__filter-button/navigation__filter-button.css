@@ -1,0 +1,18 @@
+.navigation__filter-button {
+   height: 20px;
+   width: 20px;
+   background-image: url("../../../images/buttonSearch.svg");
+   background-color: transparent;
+   background-position: center;
+   background-repeat: no-repeat;
+   border: none;
+   position: absolute;
+   right: 22px;
+   top: 12px;
+   transition: 0.5s;
+}
+
+.navigation__filter-button:hover {
+   cursor: pointer;
+   transform: scale(1.2);
+}

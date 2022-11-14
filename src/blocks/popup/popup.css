@@ -1,0 +1,19 @@
+.popup {
+   visibility: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: 0;
+   transition: .3s;
+   background: rgba(5, 5, 16, 0.16);
+}
+
+.popup_active {
+   visibility: visible;
+   opacity: 1;
+}

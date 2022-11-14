@@ -1,0 +1,13 @@
+.avatar__other {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.2rem;
+   color: #97979B;
+   align-self: end;
+}
+
+@media screen and (max-width: 480px) {
+   .avatar__other {
+      align-self: start;
+   }
+}

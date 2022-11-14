@@ -1,0 +1,14 @@
+.profile__container {
+   display: grid;
+   gap: 5px;
+   padding-top: 55px;
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+   position: relative;
+   background-color: #F7F7F8;
+   grid-template-areas:
+      "img  img"
+      "title other"
+      "subtitle subtitle";
+}
