@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="page">
       <Routes>
-        <Route path="/"
+        <Route path="/chat"
           element={
             <>
               <SearchUser
