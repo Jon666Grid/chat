@@ -18,7 +18,7 @@ function ProfileUser(props) {
             <h2 className="profile__title">{props.card.firstName} {props.card.lastName}</h2>
             <span className="profile__other">{props.card.userTag}</span>
             <p className="profile__subtitle">{props.card.department}</p>
-            <Link to='/' className="profile__out" />
+            <Link to='/chat' className="profile__out" />
          </div>
          <ul className="profile__data">
             <li className="profile__data-container">
