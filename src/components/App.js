@@ -16,19 +16,23 @@ function App() {
   const [checkbox, setCheckbox] = useState('alphabet');
   const [isOpenModal, setIsOpenModal] = useState(false);
   const [errorInfo, setErrorInfo] = useState(false);
+  const [loader, setLoader] = useState(false);
   const [selectedCard, setSelectedCard] = useState([]);
 
   const getData = async (word) => {
+    setLoader(false);
     try {
       const data = await getUserByItems(word);
       setUserInfo(data.data.items);
       setErrorInfo(false);
+      setLoader(true);
     } catch (e) {
-      if (e.name === 'AxiosError') {
+      if (e.name === "AxiosError") {
         setErrorInfo(true);
+        setLoader(true);
       }
     }
-  }
+  };
 
   useEffect(() => {
     getData(!department ? 'all' : department);
@@ -52,7 +56,7 @@ function App() {
     setIsOpenModal(false)
   }
 
-  const loading = filtered.length === 0 || errorInfo;
+  const loading = loader & filtered.length === 0 || errorInfo;
 
   return (
     <div className="page">
